@@ -15,19 +15,22 @@ import os
 
 # The picture: one road that joins every library, post office, and market
 # on earth, so that anything written or spoken can reach anyone in a
-# single breath. That is the whole of the internet in one image the
-# traveler already understands: the road carries the messages, the
-# libraries and post offices hold what is shared, and the breath is the
-# speed -- no waiting for a rider, a ship, or a season.
+# single breath -- and an answer can come back just as fast. That is the
+# whole of the internet in one image the traveler already understands:
+# the road carries the messages, the libraries and post offices hold what
+# is shared, the breath is the speed -- no waiting for a rider, a ship,
+# or a season -- and the road runs both ways, as a letter expects a reply.
 ROAD = "a road joining every library, post office, and market on earth"
 CARGO = "any letter, book, or spoken word"
 SPEED = "in a single breath"
+REPLY = "an answer can come back just as fast"
 
 
 def build_sentence() -> str:
     """Join the picture's parts into one sentence."""
     return (
-        f"It is {ROAD}, so {CARGO} can reach anyone {SPEED}."
+        f"It is {ROAD}, so {CARGO} can reach anyone {SPEED}, "
+        f"and {REPLY}."
     )
 
 
